@@ -1,0 +1,42 @@
+```{r}
+#パッケージのインストール
+install.packages("spdep")
+install.packages("maptools")
+install.packages("gpclibPermit")
+
+```
+
+```{r}
+#パッケージの読み込み
+library(sf)
+library(spdep)
+library(maptools)
+
+#データをダウンロードした、自分の使っているファイルに設定
+setwd("/home4/174e324e/Desktop/Spatial-Econometrics-R/US_State")
+
+#シェープファイルの読み込み
+US_State <- readShapePoly("US_State.shp", IDvar="StateFIPSN")
+
+#データに含まれる変数名の確認
+names(US_State)
+
+#読み込んだシェープファイルの図示
+plot(US_State)
+
+#各州の重心座標を求める
+coords <- coordinates(US_State)
+
+#州のインデックスを地図上に重ねて表示
+text(coords[,1], coords[,2], US_State$StateFIPSN, col="black")
+print(paste("coords[,1]:", coords[,1], "coords[,2]:", coords[,2], "US_State$StateFIPSN:",  US_State$StateFIPSN))
+```
+
+```{r}
+contnb <- dnearneigh(coordinates(US_State), 0, 1500000, longlat=F)
+
+```
+
+```{r}
+W <- nb2listw(contnb, glist=NULL)
+```
