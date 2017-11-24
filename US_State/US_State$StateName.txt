@@ -1,0 +1,14 @@
+ [1] Alabama              Alaska               Arizona              Arkansas            
+ [5] California           Colorado             Connecticut          Delaware            
+ [9] District of Columbia Florida              Georgia              Hawaii              
+[13] Idaho                Illinois             Indiana              Iowa                
+[17] Kansas               Kentucky             Louisiana            Maine               
+[21] Maryland             Massachusetts        Michigan             Minnesota           
+[25] Mississippi          Missouri             Montana              Nebraska            
+[29] Nevada               New Hampshire        New Jersey           New Mexico          
+[33] New York             North Carolina       North Dakota         Ohio                
+[37] Oklahoma             Oregon               Pennsylvania         Rhode Island        
+[41] South Carolina       South Dakota         Tennessee            Texas               
+[45] Utah                 Vermont              Virginia             Washington          
+[49] West Virginia        Wisconsin            Wyoming             
+51 Levels: Alabama Alaska Arizona Arkansas California Colorado Connecticut ... Wyoming

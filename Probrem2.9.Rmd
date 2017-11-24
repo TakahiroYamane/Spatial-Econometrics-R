@@ -1,3 +1,13 @@
+---
+title: "solution2.9"
+author: 'Yamane Takahiro^[174E324E]'
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output:
+  bookdown::html_document2: 
+    keep_md: true
+---
+
+
 ```{r}
 #パッケージのインストール
 install.packages("spdep")

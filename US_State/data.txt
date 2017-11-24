@@ -1,109 +1,109 @@
 An object of class "SpatialPolygonsDataFrame"
 Slot "data":
-   OBJECTID  FIPS FIPSNum StateFIPS StateFIPSN            StateName CensusReg          CensusDiv
-1      1788 01000    1000        01          1              Alabama     South East South Central
-2         1 02000    2000        02          2               Alaska      West            Pacific
-4      3007 04000    4000        04          4              Arizona      West           Mountain
-5      1787 05000    5000        05          5             Arkansas     South West South Central
-6      2980 06000    6000        06          6           California      West            Pacific
-8      2977 08000    8000        08          8             Colorado      West           Mountain
-9       237 09000    9000        09          9          Connecticut Northeast        New England
-10     2979 10000   10000        10         10             Delaware     South     South Atlantic
-11     3041 11000   11000        11         11 District of Columbia     South     South Atlantic
-12     2272 12000   12000        12         12              Florida     South     South Atlantic
-13     1782 13000   13000        13         13              Georgia     South     South Atlantic
-15     2448 15000   15000        15         15               Hawaii      West            Pacific
-16     2573 16000   16000        16         16                Idaho      West           Mountain
-17      522 17000   17000        17         17             Illinois   Midwest East North Central
-18      540 18000   18000        18         18              Indiana   Midwest East North Central
-19      497 19000   19000        19         19                 Iowa   Midwest West North Central
-20      956 20000   20000        20         20               Kansas   Midwest West North Central
-21      978 21000   21000        21         21             Kentucky     South East South Central
-22     2257 22000   22000        22         22            Louisiana     South West South Central
-23       10 23000   23000        23         23                Maine Northeast        New England
-24     2989 24000   24000        24         24             Maryland     South     South Atlantic
-25      168 25000   25000        25         25        Massachusetts Northeast        New England
-26       18 26000   26000        26         26             Michigan   Midwest East North Central
-27       11 27000   27000        27         27            Minnesota   Midwest West North Central
-28     1784 28000   28000        28         28          Mississippi     South East South Central
-29      365 29000   29000        29         29             Missouri   Midwest West North Central
-30     2576 30000   30000        30         30              Montana      West           Mountain
-31      517 31000   31000        31         31             Nebraska   Midwest West North Central
-32     2978 32000   32000        32         32               Nevada      West           Mountain
-33       28 33000   33000        33         33        New Hampshire Northeast        New England
-34      498 34000   34000        34         34           New Jersey Northeast    Middle Atlantic
-35     3006 35000   35000        35         35           New Mexico      West           Mountain
-36       48 36000   36000        36         36             New York Northeast    Middle Atlantic
-37     1250 37000   37000        37         37       North Carolina     South     South Atlantic
-38     2604 38000   38000        38         38         North Dakota   Midwest West North Central
-39      496 39000   39000        39         39                 Ohio   Midwest East North Central
-40     1786 40000   40000        40         40             Oklahoma     South West South Central
-41     2616 41000   41000        41         41               Oregon      West            Pacific
-42      501 42000   42000        42         42         Pennsylvania Northeast    Middle Atlantic
-44      261 44000   44000        44         44         Rhode Island Northeast        New England
-45     1783 45000   45000        45         45       South Carolina     South     South Atlantic
-46     2762 46000   46000        46         46         South Dakota   Midwest West North Central
-47     1398 47000   47000        47         47            Tennessee     South East South Central
-48     2004 48000   48000        48         48                Texas     South West South Central
-49     2975 49000   49000        49         49                 Utah      West           Mountain
-50       34 50000   50000        50         50              Vermont Northeast        New England
-51      358 51000   51000        51         51             Virginia     South     South Atlantic
-53        9 53000   53000        53         53           Washington      West            Pacific
-54      642 54000   54000        54         54        West Virginia     South     South Atlantic
-55       41 55000   55000        55         55            Wisconsin   Midwest East North Central
-56      160 56000   56000        56         56              Wyoming      West           Mountain
-    XCentroid   YCentroid Notes
-1    852947.9  -486613.91  <NA>
-2  -1882092.2  2310348.39  <NA>
-4  -1424483.3  -243136.86  <NA>
-5    322337.4  -285461.52  <NA>
-6  -2043231.2   218514.51  <NA>
-8   -817850.5   208862.72  <NA>
-9   1905503.9   696289.24  <NA>
-10  1746086.8   354997.74  <NA>
-11  1620402.1   319981.75  <NA>
-12  1322597.1  -894036.87  <NA>
-13  1168996.3  -466258.11  <NA>
-15 -2168182.6 -1451180.84  <NA>
-16 -1470523.9   910377.40  <NA>
-17   574970.8   304826.37  <NA>
-18   822418.6   310865.85  <NA>
-19   205585.6   515090.63  <NA>
-20  -205536.4   113826.12  <NA>
-21   934493.1    56395.87  <NA>
-22   383009.0  -713672.68  <NA>
-23  2068849.5  1172786.75  <NA>
-24  1638126.2   338626.73  <NA>
-25  1962883.6   783260.14  <NA>
-26   842567.9   809437.26  <NA>
-27   131047.6   982130.01  <NA>
-28   588801.4  -512714.65  <NA>
-29   306049.9   102003.54  <NA>
-30 -1037774.3  1140280.09  <NA>
-31  -314263.2   458397.61  <NA>
-32 -1748432.8   395592.84  <NA>
-33  1939187.9   943002.84  <NA>
-34  1786060.4   502143.09  <NA>
-35  -920662.7  -296975.48  <NA>
-36  1649630.5   787553.81  <NA>
-37  1490156.7   -87060.22  <NA>
-38  -338685.4  1118169.59  <NA>
-39  1109246.9   389718.27  <NA>
-40  -134089.4  -213559.08  <NA>
-41 -1942847.5   972151.86  <NA>
-42  1512123.0   523601.86  <NA>
-44  1998624.4   726004.48  <NA>
-45  1381456.8  -292445.29  <NA>
-46  -335461.9   784141.71  <NA>
-47   862489.7  -140006.74  <NA>
-48  -314536.3  -667875.83  <NA>
-49 -1332827.6   312498.14  <NA>
-50  1843858.7   962269.43  <NA>
-51  1497032.6   137676.45  <NA>
-53 -1837353.2  1340481.22  <NA>
-54  1319916.5   234740.39  <NA>
-55   475215.1   811333.90  <NA>
-56  -934461.2   671962.07  <NA>
+   OBJECTID  FIPS FIPSNum StateFIPS StateFIPSN            StateName CensusReg
+1      1788 01000    1000        01          1              Alabama     South
+2         1 02000    2000        02          2               Alaska      West
+4      3007 04000    4000        04          4              Arizona      West
+5      1787 05000    5000        05          5             Arkansas     South
+6      2980 06000    6000        06          6           California      West
+8      2977 08000    8000        08          8             Colorado      West
+9       237 09000    9000        09          9          Connecticut Northeast
+10     2979 10000   10000        10         10             Delaware     South
+11     3041 11000   11000        11         11 District of Columbia     South
+12     2272 12000   12000        12         12              Florida     South
+13     1782 13000   13000        13         13              Georgia     South
+15     2448 15000   15000        15         15               Hawaii      West
+16     2573 16000   16000        16         16                Idaho      West
+17      522 17000   17000        17         17             Illinois   Midwest
+18      540 18000   18000        18         18              Indiana   Midwest
+19      497 19000   19000        19         19                 Iowa   Midwest
+20      956 20000   20000        20         20               Kansas   Midwest
+21      978 21000   21000        21         21             Kentucky     South
+22     2257 22000   22000        22         22            Louisiana     South
+23       10 23000   23000        23         23                Maine Northeast
+24     2989 24000   24000        24         24             Maryland     South
+25      168 25000   25000        25         25        Massachusetts Northeast
+26       18 26000   26000        26         26             Michigan   Midwest
+27       11 27000   27000        27         27            Minnesota   Midwest
+28     1784 28000   28000        28         28          Mississippi     South
+29      365 29000   29000        29         29             Missouri   Midwest
+30     2576 30000   30000        30         30              Montana      West
+31      517 31000   31000        31         31             Nebraska   Midwest
+32     2978 32000   32000        32         32               Nevada      West
+33       28 33000   33000        33         33        New Hampshire Northeast
+34      498 34000   34000        34         34           New Jersey Northeast
+35     3006 35000   35000        35         35           New Mexico      West
+36       48 36000   36000        36         36             New York Northeast
+37     1250 37000   37000        37         37       North Carolina     South
+38     2604 38000   38000        38         38         North Dakota   Midwest
+39      496 39000   39000        39         39                 Ohio   Midwest
+40     1786 40000   40000        40         40             Oklahoma     South
+41     2616 41000   41000        41         41               Oregon      West
+42      501 42000   42000        42         42         Pennsylvania Northeast
+44      261 44000   44000        44         44         Rhode Island Northeast
+45     1783 45000   45000        45         45       South Carolina     South
+46     2762 46000   46000        46         46         South Dakota   Midwest
+47     1398 47000   47000        47         47            Tennessee     South
+48     2004 48000   48000        48         48                Texas     South
+49     2975 49000   49000        49         49                 Utah      West
+50       34 50000   50000        50         50              Vermont Northeast
+51      358 51000   51000        51         51             Virginia     South
+53        9 53000   53000        53         53           Washington      West
+54      642 54000   54000        54         54        West Virginia     South
+55       41 55000   55000        55         55            Wisconsin   Midwest
+56      160 56000   56000        56         56              Wyoming      West
+            CensusDiv  XCentroid   YCentroid Notes
+1  East South Central   852947.9  -486613.91  <NA>
+2             Pacific -1882092.2  2310348.39  <NA>
+4            Mountain -1424483.3  -243136.86  <NA>
+5  West South Central   322337.4  -285461.52  <NA>
+6             Pacific -2043231.2   218514.51  <NA>
+8            Mountain  -817850.5   208862.72  <NA>
+9         New England  1905503.9   696289.24  <NA>
+10     South Atlantic  1746086.8   354997.74  <NA>
+11     South Atlantic  1620402.1   319981.75  <NA>
+12     South Atlantic  1322597.1  -894036.87  <NA>
+13     South Atlantic  1168996.3  -466258.11  <NA>
+15            Pacific -2168182.6 -1451180.84  <NA>
+16           Mountain -1470523.9   910377.40  <NA>
+17 East North Central   574970.8   304826.37  <NA>
+18 East North Central   822418.6   310865.85  <NA>
+19 West North Central   205585.6   515090.63  <NA>
+20 West North Central  -205536.4   113826.12  <NA>
+21 East South Central   934493.1    56395.87  <NA>
+22 West South Central   383009.0  -713672.68  <NA>
+23        New England  2068849.5  1172786.75  <NA>
+24     South Atlantic  1638126.2   338626.73  <NA>
+25        New England  1962883.6   783260.14  <NA>
+26 East North Central   842567.9   809437.26  <NA>
+27 West North Central   131047.6   982130.01  <NA>
+28 East South Central   588801.4  -512714.65  <NA>
+29 West North Central   306049.9   102003.54  <NA>
+30           Mountain -1037774.3  1140280.09  <NA>
+31 West North Central  -314263.2   458397.61  <NA>
+32           Mountain -1748432.8   395592.84  <NA>
+33        New England  1939187.9   943002.84  <NA>
+34    Middle Atlantic  1786060.4   502143.09  <NA>
+35           Mountain  -920662.7  -296975.48  <NA>
+36    Middle Atlantic  1649630.5   787553.81  <NA>
+37     South Atlantic  1490156.7   -87060.22  <NA>
+38 West North Central  -338685.4  1118169.59  <NA>
+39 East North Central  1109246.9   389718.27  <NA>
+40 West South Central  -134089.4  -213559.08  <NA>
+41            Pacific -1942847.5   972151.86  <NA>
+42    Middle Atlantic  1512123.0   523601.86  <NA>
+44        New England  1998624.4   726004.48  <NA>
+45     South Atlantic  1381456.8  -292445.29  <NA>
+46 West North Central  -335461.9   784141.71  <NA>
+47 East South Central   862489.7  -140006.74  <NA>
+48 West South Central  -314536.3  -667875.83  <NA>
+49           Mountain -1332827.6   312498.14  <NA>
+50        New England  1843858.7   962269.43  <NA>
+51     South Atlantic  1497032.6   137676.45  <NA>
+53            Pacific -1837353.2  1340481.22  <NA>
+54     South Atlantic  1319916.5   234740.39  <NA>
+55 East North Central   475215.1   811333.90  <NA>
+56           Mountain  -934461.2   671962.07  <NA>
 
 Slot "polygons":
 [[1]]
@@ -14603,8 +14603,8 @@ Slot "area":
 
 
 Slot "plotOrder":
- [1] 44  5  2 27 32  3 29  6 51 38 45 24 13 17 28 42 35 37 26 48 11 23 10 14 16 50  4  1 34 33 25 19
-[33] 39 43 36 47 18 15 20 41 49 21 46 30 22 31 12  7  8 40  9
+ [1] 44  5  2 27 32  3 29  6 51 38 45 24 13 17 28 42 35 37 26 48 11 23 10 14 16 50  4  1
+[29] 34 33 25 19 39 43 36 47 18 15 20 41 49 21 46 30 22 31 12  7  8 40  9
 
 Slot "bbox":
        min     max
