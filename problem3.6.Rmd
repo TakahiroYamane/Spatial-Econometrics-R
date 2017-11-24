@@ -1,0 +1,28 @@
+---
+title: "Problem3.6"
+output: html_document
+---
+
+```{r}
+library(spdep)
+data(boston)
+ls(boston.c)
+```
+
+```{r}
+model1 <- lm(MEDV ~ CRIM + RM + INDUS + NOX + AGE + DIS + RAD + PTRATIO + B + LSTAT + TAX, data = boston.c)
+summary(model1)
+```
+```{r}
+#空間重み行列空間重み行列の作成
+W1 <- nb2listw(boston.soi, glist=NULL, style="W")
+#空間誤差モデル,最尤法
+model2 <- errorsarlm(formula=MEDV ~ CRIM + RM + INDUS + NOX + AGE + DIS + RAD + PTRATIO + B + LSTAT + TAX, data = boston.c, listw=W1)
+summary(model2)
+```
+
+```{r}
+sink(file="data.txt")
+print(W1$weight)
+sink()
+```
