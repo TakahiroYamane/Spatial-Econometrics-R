@@ -1,12 +1,5 @@
----
-title: "solution2.9"
-author: 'Yamane Takahiro^[174E324E]'
-date: '`r format(Sys.time(), "%d %B, %Y")`'
-output:
-  bookdown::html_document2: 
-    keep_md: true
----
-
+# title: "solution2.9"
+# author: 'Yamane Takahiro
 
 ```{r}
 #パッケージのインストール
@@ -48,5 +41,5 @@ contnb <- dnearneigh(coordinates(US_State), 0, 1500000, longlat=F)
 ```
 
 ```{r}
-W <- nb2listw(contnb, glist=NULL)
+W <- nb2listw(contnb, glist=NULL, style="W")
 ```
